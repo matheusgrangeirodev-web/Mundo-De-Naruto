@@ -38,7 +38,6 @@
 .will { padding: 6rem 1.2rem; }
 .will blockquote { font-size: clamp(1.6rem, 3.5vw, 3rem); }
 .will .will-k { font-size: 30vw; }
-.hk-preview-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
 .essay-preview { padding: 6rem 1.5rem; }
 body.pg-ensaio { font-size: 17px; }
 .capa { padding: 5rem 1.5rem 3rem; }
@@ -56,8 +55,6 @@ body.pg-ensaio { font-size: 17px; }
 .citacao { font-size: 1.1rem; padding-left: 1.5rem; margin: 2rem 0; }
 .divisor-eixo { min-height: 40vh; padding: 3.5rem 1.5rem; }
 .divisor-nome { font-size: clamp(1.6rem, 4vw, 2.5rem); }
-.timeline-spine { display: none; }
-.hk-node { display: none; }
 .founding-vs { grid-template-columns: 1fr; gap: 1rem; max-width: 300px; }
 .fv-vs { text-align: center; }
 .hk-grid, .hokage[data-align="right"] .hk-grid { grid-template-columns: 1fr; gap: 2rem; }

@@ -27,9 +27,6 @@
 .will { padding: 4rem 1rem; }
 .will blockquote { font-size: clamp(1.4rem, 3vw, 2.2rem); }
 .will .will-k { font-size: 50vw; }
-.hk-preview-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 0.6rem; }
-.hk-card { padding: 1.2rem 0.8rem; }
-.hk-card .hk-n { font-size: 1.1rem; }
 .essay-preview { padding: 5rem 1.2rem; }
 body.pg-ensaio { font-size: 16px; line-height: 1.75; }
 .capa { padding: 4.5rem 1.2rem 3rem; }

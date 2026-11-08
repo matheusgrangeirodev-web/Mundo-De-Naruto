@@ -163,37 +163,6 @@ body { font-family: var(--ff-body); }
 .clan p { font-size: 0.82rem; font-weight: 300; color: var(--tx-mid); line-height: 1.7; margin-bottom: 0.8rem; }
 .clan .mem { font-size: 0.7rem; color: var(--tx-dim); }
 .clan .mem b { color: var(--tx-mid); font-weight: 500; }
-.hk-preview-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 0.8rem;
-  max-width: 900px; margin: 0 auto 2.5rem;
-}
-.hk-card {
-  position: relative; padding: 1.5rem 1rem;
-  background: rgba(255,255,255,0.02);
-  border: 1px solid var(--border);
-  text-align: center; text-decoration: none; color: var(--tx);
-  overflow: hidden;
-  transition: border-color 0.4s, translate 0.3s;
-}
-.hk-card:hover { border-color: var(--gold); translate: 0 -3px; }
-.hk-card .hk-k {
-  font-weight: 900; font-size: 4rem; line-height: 1;
-  color: var(--gold); opacity: 0.06;
-  position: absolute; top: -0.2rem; right: 0.3rem;
-  pointer-events: none;
-}
-.hk-card .hk-n {
-  font-family: var(--ff-display);
-  font-size: 1.3rem; font-weight: 600;
-  letter-spacing: 0.04em; line-height: 1;
-  position: relative; margin-bottom: 0.2rem;
-}
-.hk-card .hk-e {
-  font-size: 0.6rem; color: var(--tx-dim);
-  letter-spacing: 0.04em; position: relative;
-}
 .explore-cta {
   display: inline-block;
   font-size: 0.72rem; font-weight: 500;

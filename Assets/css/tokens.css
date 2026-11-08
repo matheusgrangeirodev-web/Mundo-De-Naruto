@@ -3,9 +3,9 @@
   --bg: #0A0A10;
   --bg-alt: #0E0E16;
   --bg-deep: #040408;
-  --tx: #D8D3C8;
-  --tx-mid: #7A7468;
-  --tx-dim: #3D3A35;
+  --tx: #E8E4DB;
+  --tx-mid: #9E9689;
+  --tx-dim: #5C564E;
   --border: rgba(255,255,255,0.06);
   --gold: #C4A35A;
   --green: #3DD68C;
@@ -33,8 +33,8 @@ body {
   color: var(--tx);
   font-family: var(--ff-body);
   font-size: 16px;
-  font-weight: 300;
-  line-height: 1.7;
+  font-weight: 400;
+  line-height: 1.75;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
@@ -75,15 +75,15 @@ body::after {
 
 .chapter {
   position: relative;
-  font-size: 0.68rem; font-weight: 400;
-  color: var(--tx-dim);
+  font-size: 0.75rem; font-weight: 500;
+  color: var(--tx-mid);
   text-decoration: none;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   padding: 0.5rem 0.9rem;
   transition: color 0.3s;
 }
-.chapter:hover { color: var(--tx-mid); }
+.chapter:hover { color: var(--tx); }
 .chapter.active { color: var(--gold); }
 .chapter::before {
   content: attr(data-num);
@@ -140,7 +140,7 @@ body::after {
 }
 
 .sec-desc {
-  font-size: 0.95rem; font-weight: 300;
+  font-size: 1rem; font-weight: 400;
   color: var(--tx-mid);
   max-width: 560px; margin: 0 auto;
   line-height: 1.8;
@@ -190,7 +190,7 @@ body::after {
 
 .events { list-style: none; display: grid; gap: 0.5rem; margin-bottom: 1.5rem; }
 .events li {
-  font-size: 0.78rem; font-weight: 300;
+  font-size: 0.85rem; font-weight: 400;
   color: var(--tx-mid);
   padding-left: 1rem; position: relative;
 }
@@ -207,16 +207,16 @@ body::after {
 }
 .site-footer .f-brand {
   font-family: var(--ff-display);
-  font-size: 1.2rem; font-weight: 600;
-  color: var(--tx-dim); letter-spacing: 0.15em;
+  font-size: 1.3rem; font-weight: 600;
+  color: var(--tx-mid); letter-spacing: 0.15em;
 }
 .site-footer .f-links { display: flex; list-style: none; gap: 1.5rem; }
 .site-footer .f-links a {
-  font-size: 0.7rem; color: var(--tx-dim);
+  font-size: 0.8rem; color: var(--tx-mid);
   text-decoration: none; transition: color 0.3s;
 }
 .site-footer .f-links a:hover { color: var(--tx); }
-.site-footer .f-copy { font-size: 0.6rem; color: var(--tx-dim); }
+.site-footer .f-copy { font-size: 0.72rem; color: var(--tx-mid); }
 .ambient-glow {
   position: fixed; inset: 0;
   pointer-events: none; z-index: -1;
