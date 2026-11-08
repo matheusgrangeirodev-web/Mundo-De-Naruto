@@ -5,7 +5,6 @@ Site estático (HTML + CSS + JS vanilla) com conteúdo sobre o universo Naruto:
 - `index.html` — página principal da Vila da Folha (cinematográfica)
 - `historia-konoha.html` — perfis dos Hokages com timeline vertical
 - `ensaio.html` — ensaio filosófico "Entre a Espada e o Sonho"
-- `triadic-pressure.html` — arte generativa com p5.js (Pressão Triádica)
 
 ## Diretrizes de Design
 - Estilo minimalista, moderno, fora do padrão — sem vícios de design
@@ -49,11 +48,9 @@ Assets/
     index.js       — init da página principal
     ensaio.js      — init do ensaio
     historia.js    — init da página de Hokages
-    triadic-pressure.js — arte generativa p5.js
     api-naruto.js  — enriquecimento via Dattebayo API (jutsus, família)
   images/          — assets visuais
 index.html         — Vila da Folha
 historia-konoha.html — Hokages
 ensaio.html        — Ensaio filosófico
-triadic-pressure.html — Arte generativa
 ```
