@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Konoha — Vila Oculta da Folha</title>
+<meta name="description" content="Universo Naruto: clãs, Hokages, lendas e ensaio filosófico sobre poder, guerra e utopia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700;900&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,300;1,6..72,400;1,6..72,500&family=Noto+Serif+JP:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Assets/css/tokens.css">
+<link rel="stylesheet" href="Assets/css/index.css">
+<link rel="stylesheet" href="Assets/css/responsivo-tablet.css" media="(max-width: 768px)">
+<link rel="stylesheet" href="Assets/css/responsivo-celular.css" media="(max-width: 480px)">
+</head>
+<body>
+
+<div class="progress" aria-hidden="true"></div>
+<div class="ambient" aria-hidden="true"></div>
+
+<nav aria-label="principal">
+  <a href="#hero" class="logo">KONOHA</a>
+  <ul>
+    <li><a href="#fundacao">Origem</a></li>
+    <li><a href="#clas">Clãs</a></li>
+    <li><a href="#hokages">Hokages</a></li>
+    <li><a href="#lendas">Lendas</a></li>
+    <li><a href="#time7">Time 7</a></li>
+    <li><a href="#ensaio">Ensaio</a></li>
+  </ul>
+  <a href="#ensaio" class="cta">Ensaio Filosófico</a>
+</nav>
+
+<header class="hero" id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="orb" aria-hidden="true"></div>
+  <div class="orb" aria-hidden="true"></div>
+  <span class="kanji" aria-hidden="true" lang="ja">火</span>
+  <span class="kanji" aria-hidden="true" lang="ja">忍</span>
+  <span class="kanji" aria-hidden="true" lang="ja">葉</span>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Vila Oculta da Folha</p>
+    <h1 class="hero-title">
+      <span class="outline" aria-hidden="true">KONOHA</span>
+      <span class="fill">KONOHA</span>
+      <span class="jp" lang="ja">木ノ葉隠れの里</span>
+    </h1>
+    <p class="hero-sub">Fundada sobre a promessa de paz entre clãs rivais, a Vila da Folha se tornou o centro de poder do mundo shinobi — e o palco dos maiores conflitos da história ninja.</p>
+    <div class="hero-actions">
+      <a href="#fundacao" class="btn-pri">Explorar a Vila</a>
+      <a href="#ensaio" class="btn-gho"><span>Ler o Ensaio</span></a>
+    </div>
+  </div>
+  <div class="scroll-ind" aria-hidden="true"><span>Rolar</span><span></span></div>
+</header>
+
+<div class="stats" role="presentation">
+  <div class="stat"><span class="n" data-target="7">0</span><span class="l">Hokages</span></div>
+  <div class="stat"><span class="n" data-target="10">0</span><span class="l">Clãs Principais</span></div>
+  <div class="stat"><span class="n" data-target="4">0</span><span class="l">Grandes Guerras</span></div>
+  <div class="stat"><span class="n" data-target="80">0</span><span class="l">Anos de História</span></div>
+</div>
+
+<main>
+
+<section class="sec" id="fundacao">
+  <div class="inner">
+    <header class="sec-hd">
+      <span class="tag">A Fundação</span>
+      <h2 class="sec-title">Origem de Konoha</h2>
+      <p class="sec-desc">Dois clãs inimigos selaram um pacto impossível. A vila nasceu desse ato de fé — e das contradições que ele carregava.</p>
+    </header>
+    <div class="origin-text">
+      <p>Antes de Konoha, o mundo shinobi era uma guerra permanente entre clãs. Crianças morriam antes de completar dez anos. <strong>Hashirama Senju</strong> e <strong>Madara Uchiha</strong>, rivais desde a infância, ousaram imaginar um lugar onde ninguém mais precisasse enterrar os próprios filhos.</p>
+      <p>A fundação foi um contrato: os clãs abdicaram da autonomia total em troca de <span class="em-g">proteção coletiva</span>. Mas esse mesmo contrato criou uma hierarquia militar que transformaria crianças em soldados — a <span class="em-r">contradição original</span> que a vila nunca resolveu.</p>
+    </div>
+    <div class="founders">
+      <figure class="founder" style="--c:#3DD68C"><figcaption class="cap"><b>Hashirama</b><small>Clã Senju</small></figcaption></figure>
+      <div class="vs"><b>VS</b><small>Rivais eternos</small></div>
+      <figure class="founder" style="--c:#DC2626"><figcaption class="cap"><b>Madara</b><small>Clã Uchiha</small></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="clas">
+  <div class="inner">
+    <header class="sec-hd">
+      <span class="tag">Os Pilares</span>
+      <h2 class="sec-title">Clãs de Konoha</h2>
+      <p class="sec-desc">Cada clã carrega um kekkei genkai, uma filosofia de combate e uma história de sacrifícios.</p>
+    </header>
+    <div class="clan-grid">
+      <article class="clan" style="--c:#3DD68C"><span class="crest" aria-hidden="true" lang="ja">千</span><div class="clan-body"><h3>Senju</h3><p class="jp" lang="ja">千手一族</p><p>Descendentes de Asura. Mestres do Mokuton e linhagem dos primeiros Hokages.</p><p class="mem">Notáveis: <b>Hashirama, Tobirama, Tsunade</b></p></div></article>
+      <article class="clan" style="--c:#DC2626"><span class="crest" aria-hidden="true" lang="ja">う</span><div class="clan-body"><h3>Uchiha</h3><p class="jp" lang="ja">うちは一族</p><p>Descendentes de Indra. O Sharingan desperta pela dor — quanto maior a perda, mais forte o olho.</p><p class="mem">Notáveis: <b>Madara, Itachi, Sasuke, Obito</b></p></div></article>
+      <article class="clan" style="--c:#C4B5FD"><span class="crest" aria-hidden="true" lang="ja">日</span><div class="clan-body"><h3>Hyūga</h3><p class="jp" lang="ja">日向一族</p><p>O Byakugan vê tudo — exceto a injustiça dentro do próprio clã.</p><p class="mem">Notáveis: <b>Neji, Hinata, Hiashi</b></p></div></article>
+      <article class="clan" style="--c:#94A3B8"><span class="crest" aria-hidden="true" lang="ja">奈</span><div class="clan-body"><h3>Nara</h3><p class="jp" lang="ja">奈良一族</p><p>Manipuladores de sombras com QI acima de 200. A preguiça é fachada.</p><p class="mem">Notáveis: <b>Shikamaru, Shikaku</b></p></div></article>
+      <article class="clan" style="--c:#F59E0B"><span class="crest" aria-hidden="true" lang="ja">秋</span><div class="clan-body"><h3>Akimichi</h3><p class="jp" lang="ja">秋道一族</p><p>Convertem calorias em força bruta. Leais, generosos e devastadores em combate.</p><p class="mem">Notáveis: <b>Chōji, Chōza</b></p></div></article>
+      <article class="clan" style="--c:#2DD4BF"><span class="crest" aria-hidden="true" lang="ja">山</span><div class="clan-body"><h3>Yamanaka</h3><p class="jp" lang="ja">山中一族</p><p>Especialistas em invasão mental e telecomunicação. Em guerra, a rede de inteligência.</p><p class="mem">Notáveis: <b>Ino, Inoichi</b></p></div></article>
+      <article class="clan" style="--c:#84CC16"><span class="crest" aria-hidden="true" lang="ja">油</span><div class="clan-body"><h3>Aburame</h3><p class="jp" lang="ja">油女一族</p><p>Hospedam insetos de chakra no próprio corpo desde o nascimento.</p><p class="mem">Notáveis: <b>Shino, Shibi</b></p></div></article>
+      <article class="clan" style="--c:#A16207"><span class="crest" aria-hidden="true" lang="ja">犬</span><div class="clan-body"><h3>Inuzuka</h3><p class="jp" lang="ja">犬塚一族</p><p>Lutam em simbiose com seus cães ninjas. Sentidos aguçados, instinto selvagem.</p><p class="mem">Notáveis: <b>Kiba, Tsume</b></p></div></article>
+      <article class="clan" style="--c:#FF4500"><span class="crest" aria-hidden="true" lang="ja">猿</span><div class="clan-body"><h3>Sarutobi</h3><p class="jp" lang="ja">猿飛一族</p><p>Mestres do Katon e portadores da Vontade do Fogo.</p><p class="mem">Notáveis: <b>Hiruzen, Asuma, Konohamaru</b></p></div></article>
+      <article class="clan" style="--c:#F97316"><span class="crest" aria-hidden="true" lang="ja">渦</span><div class="clan-body"><h3>Uzumaki</h3><p class="jp" lang="ja">うずまき一族</p><p>Clã destruído pelo medo alheio. Mestres em fūinjutsu e portadores de vitalidade descomunal.</p><p class="mem">Notáveis: <b>Naruto, Kushina, Mito, Nagato</b></p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="hokages">
+  <div class="inner">
+    <header class="sec-hd">
+      <span class="tag">A Linhagem do Fogo</span>
+      <h2 class="sec-title">Sete Hokages</h2>
+      <p class="sec-desc">Cada Hokage herdou a Vontade do Fogo — e cada um a interpretou de forma diferente.</p>
+    </header>
+
+    <article class="hokage" id="hk1">
+      <span class="hk-bg" aria-hidden="true" lang="ja">初</span>
+      <div class="el-bar" style="background:linear-gradient(to bottom,var(--earth),transparent)" aria-hidden="true"></div>
+      <div class="hk-grid">
+        <figure class="hk-portrait"><div class="photo"><span class="medal" lang="ja">千</span></div><figcaption class="label"><b>Primeiro Hokage</b><small lang="ja">千手柱間</small></figcaption></figure>
+        <div class="hk-info">
+          <span class="hk-order">Primeiro Hokage</span>
+          <h3 class="hk-name">Hashirama Senju</h3>
+          <p class="hk-jp" lang="ja">初代火影</p>
+          <span class="hk-epithet">Deus dos Shinobi</span>
+          <p class="hk-desc">Hashirama não fundou apenas uma vila — fundou uma ideia. A de que inimigos podiam viver sob o mesmo teto se concordassem em proteger algo maior que seus clãs. Seu poder era tão absoluto que a primeira geração de paz foi, essencialmente, a paz de um homem forte demais para ser desafiado.</p>
+          <div class="power"><div class="power-head"><span class="power-lbl">Poder</span><span class="power-val">100<small>/100</small></span></div><div class="power-bar"><span style="--v:100%"></span></div></div>
+          <span class="sub-t">Elementos</span>
+          <div class="elements"><span class="el-tag" data-el="earth">Doton</span><span class="el-tag" data-el="water">Suiton</span><span class="el-tag">Mokuton</span><span class="el-tag">Senpō</span></div>
+          <span class="sub-t">Jutsus</span>
+          <div class="chips"><span class="chip">Shin Sūsenju</span><span class="chip">Jukai Kōtan</span><span class="chip">Senpō: Myōjinmon</span></div>
+          <span class="sub-t">Legado</span>
+          <ul class="events"><li>Fundou Konoha ao lado de Madara Uchiha</li><li>Capturou e distribuiu os nove bijūs</li><li>Derrotou Madara no Vale do Fim</li></ul>
+          <blockquote class="hk-quote">Eu quero que todos na vila tratem uns aos outros como família, independente de clã ou sangue.<footer>— Hashirama Senju</footer></blockquote>
+        </div>
+      </div>
+    </article>
+
+    <article class="hokage" id="hk2" data-align="right">
+      <span class="hk-bg" aria-hidden="true" lang="ja">二</span>
+      <div class="el-bar" style="background:linear-gradient(to bottom,var(--water),transparent)" aria-hidden="true"></div>
+      <div class="hk-grid">
+        <figure class="hk-portrait"><div class="photo"><span class="medal" lang="ja">扉</span></div><figcaption class="label"><b>Segundo Hokage</b><small lang="ja">千手扉間</small></figcaption></figure>
+        <div class="hk-info">
+          <span class="hk-order">Segundo Hokage</span>
+          <h3 class="hk-name">Tobirama Senju</h3>
+          <p class="hk-jp" lang="ja">二代火影</p>
+          <span class="hk-epithet">O Legislador</span>
+          <p class="hk-desc">Se Hashirama sonhou Konoha, Tobirama a construiu. Criou a Academia, os ANBU, a Polícia Militar Uchiha e o Edo Tensei. Um pragmático que plantou as sementes da desconfiança que destruiria os Uchiha décadas depois.</p>
+          <div class="power"><div class="power-head"><span class="power-lbl">Poder</span><span class="power-val">95<small>/100</small></span></div><div class="power-bar"><span style="--v:95%"></span></div></div>
+          <span class="sub-t">Elementos</span>
+          <div class="elements"><span class="el-tag" data-el="water">Suiton</span><span class="el-tag">Jikūkan</span></div>
+          <span class="sub-t">Jutsus</span>
+          <div class="chips"><span class="chip">Hiraishin</span><span class="chip">Suiton: Suiryūdan</span><span class="chip">Edo Tensei</span></div>
+          <span class="sub-t">Legado</span>
+          <ul class="events"><li>Criou a Academia Ninja e os ANBU</li><li>Inventou o Hiraishin e o Edo Tensei</li><li>Sacrificou-se contra os Kinkaku e Ginkaku</li></ul>
+          <blockquote class="hk-quote">Os que estiverem à altura protegerão a vila, mesmo ao custo da própria vida.<footer>— Tobirama Senju</footer></blockquote>
+        </div>
+      </div>
+    </article>
+
+    <article class="hokage" id="hk3">
+      <span class="hk-bg" aria-hidden="true" lang="ja">三</span>
+      <div class="el-bar" style="background:linear-gradient(to bottom,var(--fire),transparent)" aria-hidden="true"></div>
+      <div class="hk-grid">
+        <figure class="hk-portrait"><div class="photo"><span class="medal" lang="ja">猿</span></div><figcaption class="label"><b>Terceiro Hokage</b><small lang="ja">猿飛ヒルゼン</small></figcaption></figure>
+        <div class="hk-info">
+          <span class="hk-order">Terceiro Hokage</span>
+          <h3 class="hk-name">Hiruzen Sarutobi</h3>
+          <p class="hk-jp" lang="ja">三代火影</p>
+          <span class="hk-epithet">O Professor</span>
+          <p class="hk-desc">Governou por mais tempo que qualquer Hokage. Dominou todos os jutsus de Konoha e treinou os Sannin Lendários. Mas foi sob seu governo que Danzō operou nas sombras e o massacre Uchiha se tornou possível.</p>
+          <div class="power"><div class="power-head"><span class="power-lbl">Poder</span><span class="power-val">88<small>/100</small></span></div><div class="power-bar"><span style="--v:88%"></span></div></div>
+          <span class="sub-t">Elementos</span>
+          <div class="elements"><span class="el-tag" data-el="fire">Katon</span><span class="el-tag" data-el="earth">Doton</span><span class="el-tag" data-el="water">Suiton</span><span class="el-tag" data-el="wind">Fūton</span><span class="el-tag" data-el="lightning">Raiton</span></div>
+          <span class="sub-t">Jutsus</span>
+          <div class="chips"><span class="chip">Shiki Fūjin</span><span class="chip">Kage Bunshin</span><span class="chip">Invocação: Enma</span></div>
+          <span class="sub-t">Legado</span>
+          <ul class="events"><li>Treinou Jiraiya, Tsunade e Orochimaru</li><li>Selou os braços de Orochimaru com sua vida</li><li>Protegeu a Vontade do Fogo por 4 décadas</li></ul>
+          <blockquote class="hk-quote">Enquanto houver folhas ao vento, o fogo continuará ardendo.<footer>— Hiruzen Sarutobi</footer></blockquote>
+        </div>
+      </div>
+    </article>
+
+    <article class="hokage" id="hk4" data-align="right">
+      <span class="hk-bg" aria-hidden="true" lang="ja">四</span>
+      <div class="el-bar" style="background:linear-gradient(to bottom,var(--lightning),transparent)" aria-hidden="true"></div>
+      <div class="hk-grid">
+        <figure class="hk-portrait"><div class="photo"><span class="medal" lang="ja">風</span></div><figcaption class="label"><b>Quarto Hokage</b><small lang="ja">波風ミナト</small></figcaption></figure>
+        <div class="hk-info">
+          <span class="hk-order">Quarto Hokage</span>
+          <h3 class="hk-name">Minato Namikaze</h3>
+          <p class="hk-jp" lang="ja">四代火影</p>
+          <span class="hk-epithet">Relâmpago Amarelo</span>
+          <p class="hk-desc">O shinobi mais rápido que já existiu. Criou o Rasengan e aperfeiçoou o Hiraishin. Sua grandeza não está no que venceu — está no que escolheu perder. Selou a Kyūbi no próprio filho, sacrificando-se para dar a Naruto uma chance.</p>
+          <div class="power"><div class="power-head"><span class="power-lbl">Poder</span><span class="power-val">98<small>/100</small></span></div><div class="power-bar"><span style="--v:98%"></span></div></div>
+          <span class="sub-t">Elementos</span>
+          <div class="elements"><span class="el-tag" data-el="fire">Katon</span><span class="el-tag" data-el="wind">Fūton</span><span class="el-tag" data-el="lightning">Raiton</span><span class="el-tag">Jikūkan</span></div>
+          <span class="sub-t">Jutsus</span>
+          <div class="chips"><span class="chip">Hiraishin</span><span class="chip">Rasengan</span><span class="chip">Shiki Fūjin</span></div>
+          <span class="sub-t">Legado</span>
+          <ul class="events"><li>Derrotou mil ninjas de Iwa sozinho</li><li>Criou o Rasengan</li><li>Selou a Kyūbi em Naruto</li></ul>
+          <blockquote class="hk-quote">Se eu não conseguir encontrar a resposta, passo essa missão para você.<footer>— Minato, para Naruto</footer></blockquote>
+        </div>
+      </div>
+    </article>
+
+    <article class="hokage" id="hk5">
+      <span class="hk-bg" aria-hidden="true" lang="ja">五</span>
+      <div class="el-bar" style="background:linear-gradient(to bottom,var(--earth),transparent)" aria-hidden="true"></div>
+      <div class="hk-grid">
+        <figure class="hk-portrait"><div class="photo"><span class="medal" lang="ja">綱</span></div><figcaption class="label"><b>Quinta Hokage</b><small lang="ja">綱手</small></figcaption></figure>
+        <div class="hk-info">
+          <span class="hk-order">Quinta Hokage</span>
+          <h3 class="hk-name">Tsunade</h3>
+          <p class="hk-jp" lang="ja">五代火影</p>
+          <span class="hk-epithet">A Lendária Fracassada</span>
+          <p class="hk-desc">Neta de Hashirama, Sannin lendária, a maior ninja médica de todos os tempos. A dor a fez fugir — do sangue, das batalhas e da vila. Naruto lhe devolveu a crença de que valia a pena proteger o futuro.</p>
+          <div class="power"><div class="power-head"><span class="power-lbl">Poder</span><span class="power-val">90<small>/100</small></span></div><div class="power-bar"><span style="--v:90%"></span></div></div>
+          <span class="sub-t">Elementos</span>
+          <div class="elements"><span class="el-tag" data-el="earth">Doton</span><span class="el-tag" data-el="water">Suiton</span><span class="el-tag" data-el="lightning">Raiton</span></div>
+          <span class="sub-t">Jutsus</span>
+          <div class="chips"><span class="chip">Byakugō no In</span><span class="chip">Sōzō Saisei</span><span class="chip">Invocação: Katsuyu</span></div>
+          <span class="sub-t">Legado</span>
+          <ul class="events"><li>Revolucionou o ninjutsu médico</li><li>Protegeu Konoha durante o ataque de Pain</li><li>Liderou a Aliança Shinobi como comandante médica</li></ul>
+          <blockquote class="hk-quote">Existe algo que não se pode curar: a vontade de viver. Eu a encontrei naquele garoto.<footer>— Tsunade, sobre Naruto</footer></blockquote>
+        </div>
+      </div>
+    </article>
+
+    <article class="hokage" id="hk6" data-align="right">
+      <span class="hk-bg" aria-hidden="true" lang="ja">六</span>
+      <div class="el-bar" style="background:linear-gradient(to bottom,var(--lightning),transparent)" aria-hidden="true"></div>
+      <div class="hk-grid">
+        <figure class="hk-portrait"><div class="photo"><span class="medal" lang="ja">旗</span></div><figcaption class="label"><b>Sexto Hokage</b><small lang="ja">はたけカカシ</small></figcaption></figure>
+        <div class="hk-info">
+          <span class="hk-order">Sexto Hokage</span>
+          <h3 class="hk-name">Kakashi Hatake</h3>
+          <p class="hk-jp" lang="ja">六代火影</p>
+          <span class="hk-epithet">O Ninja Copiador</span>
+          <p class="hk-desc">Perdeu o pai, Obito, Rin e Minato antes dos vinte. Cada perda o ensinou algo sobre lealdade. Governou pela competência silenciosa, reconstruindo a vila e preparando o caminho para Naruto.</p>
+          <div class="power"><div class="power-head"><span class="power-lbl">Poder</span><span class="power-val">92<small>/100</small></span></div><div class="power-bar"><span style="--v:92%"></span></div></div>
+          <span class="sub-t">Elementos</span>
+          <div class="elements"><span class="el-tag" data-el="lightning">Raiton</span><span class="el-tag" data-el="earth">Doton</span><span class="el-tag" data-el="water">Suiton</span><span class="el-tag" data-el="fire">Katon</span><span class="el-tag" data-el="wind">Fūton</span></div>
+          <span class="sub-t">Jutsus</span>
+          <div class="chips"><span class="chip">Raikiri</span><span class="chip">Kamui</span><span class="chip">1000+ copiados</span></div>
+          <span class="sub-t">Legado</span>
+          <ul class="events"><li>Sensei do Time 7</li><li>Reconstruiu Konoha no pós-guerra</li><li>Entregou o título a Naruto</li></ul>
+          <blockquote class="hk-quote">Quem quebra regras é lixo. Mas quem abandona seus companheiros é pior que lixo.<footer>— Kakashi, citando Obito</footer></blockquote>
+        </div>
+      </div>
+    </article>
+
+    <article class="hokage" id="hk7">
+      <span class="hk-bg" aria-hidden="true" lang="ja">七</span>
+      <div class="el-bar" style="background:linear-gradient(to bottom,var(--wind),transparent)" aria-hidden="true"></div>
+      <div class="hk-grid">
+        <figure class="hk-portrait"><div class="photo"><span class="medal" lang="ja">渦</span></div><figcaption class="label"><b>Sétimo Hokage</b><small lang="ja">うずまきナルト</small></figcaption></figure>
+        <div class="hk-info">
+          <span class="hk-order">Sétimo Hokage</span>
+          <h3 class="hk-name">Naruto Uzumaki</h3>
+          <p class="hk-jp" lang="ja">七代火影</p>
+          <span class="hk-epithet">O Herói da Quarta Guerra</span>
+          <p class="hk-desc">De órfão odiado a líder de todas as nações shinobi. Não chegou ao topo por ser o mais forte — chegou porque se recusou a aceitar que qualquer pessoa fosse irrecuperável. Sua paz não é a ausência de conflito — é a construção ativa de um mundo onde a dor de um não se transforma na dominação de todos.</p>
+          <div class="power"><div class="power-head"><span class="power-lbl">Poder</span><span class="power-val">100<small>/100</small></span></div><div class="power-bar"><span style="--v:100%"></span></div></div>
+          <span class="sub-t">Elementos</span>
+          <div class="elements"><span class="el-tag" data-el="wind">Fūton</span><span class="el-tag" data-el="fire">Katon</span><span class="el-tag" data-el="earth">Doton</span><span class="el-tag" data-el="lightning">Raiton</span><span class="el-tag" data-el="water">Suiton</span><span class="el-tag">Yōton</span></div>
+          <span class="sub-t">Jutsus</span>
+          <div class="chips"><span class="chip">Rasenshuriken</span><span class="chip">Modo Bijū</span><span class="chip">Rikudō Sennin</span><span class="chip">Modo Baryon</span></div>
+          <span class="sub-t">Legado</span>
+          <ul class="events"><li>Derrotou Pain e salvou Konoha</li><li>Selou Kaguya Ōtsutsuki na Quarta Guerra</li><li>Uniu as Cinco Nações sob uma era de paz</li><li>Sacrificou Kurama no Modo Baryon</li></ul>
+          <blockquote class="hk-quote">Se você não gosta do seu destino, não o aceite. Tenha a coragem de mudá-lo.<footer>— Naruto Uzumaki</footer></blockquote>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="sec alt" id="lendas">
+  <div class="inner">
+    <header class="sec-hd">
+      <span class="tag">Além dos Kages</span>
+      <h2 class="sec-title">Lendas de Konoha</h2>
+      <p class="sec-desc">Nem todo herói usou o chapéu. Alguns moldaram o destino da vila das sombras.</p>
+    </header>
+    <div class="leg-grid">
+      <article class="leg-card" style="--c:#C026D3"><header><span class="crest" aria-hidden="true" lang="ja">自</span><h3>Jiraiya</h3><p class="epi">O Eremita Pervertido</p></header><div class="body"><p>Sannin lendário, mestre de Minato e de Naruto. Morreu em Amegakure investigando Pain — e transmitiu a mensagem que salvou Konoha.</p><ul><li>Treinou dois Hokages (Minato e Naruto)</li><li>Infiltrou Amegakure e descobriu o segredo de Pain</li><li>Autor de "As Aventuras do Destemido Ninja"</li></ul></div></article>
+      <article class="leg-card" style="--c:#DC2626"><header><span class="crest" aria-hidden="true" lang="ja">鼬</span><h3>Itachi Uchiha</h3><p class="epi">O Pacifista Impossível</p></header><div class="body"><p>Massacrou o próprio clã para evitar uma guerra civil. Viveu como traidor, morreu como mártir. Sua tragédia expõe o limite moral de Konoha.</p><ul><li>Despertou o Mangekyō Sharingan aos 13 anos</li><li>Impediu o golpe de estado Uchiha sozinho</li><li>Programou o Kotoamatsukami como segurança final</li></ul></div></article>
+      <article class="leg-card" style="--c:#22C55E"><header><span class="crest" aria-hidden="true" lang="ja">碧</span><h3>Might Guy</h3><p class="epi">A Fera Verde de Konoha</p></header><div class="body"><p>Sem ninjutsu, sem genjutsu. Apenas taijutsu e vontade absurda. Abriu os Oito Portões contra Madara Rikudō e quase o matou — com o próprio corpo.</p><ul><li>Abriu todos os Oito Portões Interiores</li><li>Quase derrotou Madara Rikudō com Sekizō</li><li>Reconhecido como o maior taijutsu da história</li></ul></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="time7">
+  <div class="inner">
+    <header class="sec-hd">
+      <span class="tag">O Coração da História</span>
+      <h2 class="sec-title">Time 7</h2>
+      <p class="sec-desc">Quatro ninjas. Três gerações de trauma. Uma equipe que carregou o peso do mundo.</p>
+    </header>
+    <div class="char-grid">
+      <article class="char-card">
+        <div class="front"><span class="bgk" aria-hidden="true" lang="ja">渦</span><h3>Naruto</h3><p class="role">Jinchūriki da Kyūbi</p></div>
+        <div class="back"><h4>Naruto Uzumaki</h4><p class="rank">Sétimo Hokage</p><p>Órfão, jinchūriki, rejeitado. Transformou dor em empatia e ódio em reconhecimento.</p><div class="cstats"><div><span class="cs-lbl">Ninjutsu</span><div class="cs-bar"><span style="--v:95%"></span></div></div><div><span class="cs-lbl">Vontade</span><div class="cs-bar"><span style="--v:100%"></span></div></div></div></div>
+      </article>
+      <article class="char-card">
+        <div class="front"><span class="bgk" aria-hidden="true" lang="ja">う</span><h3>Sasuke</h3><p class="role">O Último Uchiha</p></div>
+        <div class="back"><h4>Sasuke Uchiha</h4><p class="rank">Shinobi das Sombras</p><p>Viveu para vingar, depois para destruir, e por fim para proteger — da periferia.</p><div class="cstats"><div><span class="cs-lbl">Ninjutsu</span><div class="cs-bar"><span style="--v:98%"></span></div></div><div><span class="cs-lbl">Genjutsu</span><div class="cs-bar"><span style="--v:95%"></span></div></div></div></div>
+      </article>
+      <article class="char-card">
+        <div class="front"><span class="bgk" aria-hidden="true" lang="ja">桜</span><h3>Sakura</h3><p class="role">A Flor da Primavera</p></div>
+        <div class="back"><h4>Sakura Haruno</h4><p class="rank">Ninja Médica Suprema</p><p>Sem clã, sem kekkei genkai. Construiu seu poder do zero. Prova de que vontade supera linhagem.</p><div class="cstats"><div><span class="cs-lbl">Médico</span><div class="cs-bar"><span style="--v:98%"></span></div></div><div><span class="cs-lbl">Força</span><div class="cs-bar"><span style="--v:92%"></span></div></div></div></div>
+      </article>
+      <article class="char-card">
+        <div class="front"><span class="bgk" aria-hidden="true" lang="ja">旗</span><h3>Kakashi</h3><p class="role">O Ninja Copiador</p></div>
+        <div class="back"><h4>Kakashi Hatake</h4><p class="rank">Sexto Hokage</p><p>Gênio traumatizado. Ensinou ao Time 7 a única lição que importava: não abandonar os companheiros.</p><div class="cstats"><div><span class="cs-lbl">Ninjutsu</span><div class="cs-bar"><span style="--v:95%"></span></div></div><div><span class="cs-lbl">Estratégia</span><div class="cs-bar"><span style="--v:92%"></span></div></div></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="ranking">
+  <div class="inner">
+    <header class="sec-hd">
+      <span class="tag">Poder</span>
+      <h2 class="sec-title">Ranking de Força</h2>
+      <p class="sec-desc">Estimativa baseada em feitos em combate e impacto na história shinobi.</p>
+    </header>
+    <div class="ranking">
+      <div class="rank-row"><span class="name">Naruto<small>Modo Baryon</small></span><div class="track"><span style="--v:100%"></span></div><span class="val">100</span></div>
+      <div class="rank-row"><span class="name">Hashirama<small>Modo Sennin</small></span><div class="track"><span style="--v:98%"></span></div><span class="val">98</span></div>
+      <div class="rank-row"><span class="name">Minato<small>KCM + Sennin</small></span><div class="track"><span style="--v:96%"></span></div><span class="val">96</span></div>
+      <div class="rank-row"><span class="name">Kakashi<small>DMS</small></span><div class="track"><span style="--v:92%"></span></div><span class="val">92</span></div>
+      <div class="rank-row"><span class="name">Tobirama<small>Edo Tensei</small></span><div class="track"><span style="--v:90%"></span></div><span class="val">90</span></div>
+      <div class="rank-row"><span class="name">Tsunade<small>Byakugō</small></span><div class="track"><span style="--v:84%"></span></div><span class="val">84</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="will" aria-label="Vontade do Fogo">
+  <span class="will-k" aria-hidden="true" lang="ja">火</span>
+  <blockquote>A Vontade do Fogo é acreditar que <mark>a vila inteira é uma família</mark>, e que o papel de cada geração é proteger a próxima.</blockquote>
+  <cite>Hiruzen Sarutobi — Terceiro Hokage</cite>
+</section>
+
+<article id="ensaio">
+  <header class="essay-hero">
+    <canvas id="particles" aria-hidden="true"></canvas>
+    <span class="essay-kanji" aria-hidden="true" lang="ja">剣夢</span>
+    <h2 class="essay-title">Entre a Espada<br>e o Sonho</h2>
+    <p class="essay-sub">poder, guerra e utopia em Naruto</p>
+
+    <div class="monument" aria-label="Monumento 3D dos três eixos do ensaio">
+      <div class="monument-3d">
+        <a href="#eixo-pol" class="monolith" data-axis="pol">
+          <span class="m-kanji" lang="ja">政治</span>
+          <span class="m-title">Política e Segurança</span>
+          <span class="m-sub">Liderança e Controle</span>
+        </a>
+        <a href="#eixo-mil" class="monolith" data-axis="mil">
+          <span class="m-kanji" lang="ja">戦争</span>
+          <span class="m-title">Guerra e Estratégia</span>
+          <span class="m-sub">O Custo do Sacrifício</span>
+        </a>
+        <a href="#eixo-uto" class="monolith" data-axis="uto">
+          <span class="m-kanji" lang="ja">平和</span>
+          <span class="m-title">Utopia e Controle</span>
+          <span class="m-sub">O Tsukuyomi Infinito</span>
+        </a>
+      </div>
+      <div class="monument-reflect" aria-hidden="true"></div>
+    </div>
+
+    <a href="#essay-intro" class="monument-cta">Explorar Tema</a>
+    <time class="essay-date" datetime="2026-11-06">6 de novembro de 2026</time>
+  </header>
+
+  <div class="essay-col">
+
+    <section class="essay-intro" id="essay-intro">
+      <p>Naruto costuma ser lido como uma história de superação, mas sua pergunta de fundo é mais incômoda: é possível construir paz em um mundo organizado pela guerra? As Vilas Ocultas nascem para proteger seus habitantes e, ao fazê-lo, transformam crianças em instrumentos de combate. A obra não responde a essa contradição com um ideal ingênuo. Ela a expõe personagem por personagem e a examina em três eixos: o político, o militar e o utópico-distópico.</p>
+      <p>A tese que orienta este ensaio é a de que <strong>a paz verdadeira, em Naruto, não é a ausência de dor, mas a capacidade de conviver com a dor sem transformá-la em dominação</strong>.</p>
+    </section>
+
+    <section class="essay-preludio">
+      <h2>Inspirações declaradas e leituras posteriores</h2>
+      <p>Antes de conectar Naruto a Maquiavel ou a Mozi, é preciso separar o que Masashi Kishimoto disse ter usado como base e o que a crítica encontrou na obra depois. Segundo o material de apoio, o autor atribui o ponto de partida a si mesmo na infância: isolamento e vontade de ser reconhecido. Essa base é psicológica, não doutrinária.</p>
+      <p>A leitura crítica começa onde essas declarações terminam. Quando se diz que Naruto dialoga com o budismo ou o legalismo, está se fazendo uma interpretação legítima que pertence ao leitor, não ao autor.</p>
+      <p>A obra sustenta leituras densas porque nasce de conflitos humanos reais: frustração, trauma coletivo, a herança de uma guerra. Quando um autor trabalha com essas forças, a filosofia aparece sem ser convocada.</p>
+    </section>
+
+    <div class="axis-divider" data-axis="pol" id="eixo-pol"><span class="giant" aria-hidden="true" lang="ja">政治</span><span class="ax-name">Político</span><span class="ax-desc">poder, segurança e legitimidade</span></div>
+
+    <section class="essay-axis-sec" data-axis="pol">
+      <p>O mundo shinobi começa como um problema que Hobbes reconheceria. Antes de Konoha, os clãs se matam em estado de guerra permanente. A fundação da vila funciona como um contrato: os habitantes aceitam hierarquia em troca de proteção. Mas o contrato pressupõe que a autoridade garanta a paz sem se tornar a principal fonte de medo. A vila protege do caos, mas institucionaliza a violência.</p>
+      <blockquote class="bq">A vila protege do caos, mas institucionaliza a violência, porque crianças como Kakashi e Itachi são formadas para matar desde cedo.</blockquote>
+      <p>Max Weber distingue a autoridade tradicional, a carismática e a legal-racional. O Hokage combina as duas últimas: líder carismático num cargo que existe antes dele.</p>
+      <p><strong>Danzō Shimura</strong> é o caso em que essa combinação se desfaz. A Raiz funciona como o que Foucault descreveria como um dispositivo disciplinar: vigilância interiorizada, controle sobre corpos e informações. Hannah Arendt oferece a distinção: o poder nasce do agir em conjunto; a violência pode destruí-lo, mas não o cria. Danzō governa pelo medo e cada operação secreta corrói a legitimidade que ele diz proteger.</p>
+      <blockquote class="bq">Danzō governa pelo medo e pela suspeita, e por isso cada operação secreta corrói a legitimidade que ele diz proteger.</blockquote>
+      <p><strong>Han Fei</strong>, no Legalismo, defende leis claras e autoridade forte. <strong>Confúcio</strong> contrasta a ordem imposta por regras com a ordem conduzida pela virtude. Hashirama e Naruto se aproximam do segundo modelo; Danzō representa o primeiro levado ao extremo.</p>
+    </section>
+
+    <div class="axis-divider" data-axis="mil" id="eixo-mil"><span class="giant" aria-hidden="true" lang="ja">戦争</span><span class="ax-name">Militar</span><span class="ax-desc">guerra, estratégia e sacrifício</span></div>
+
+    <section class="essay-axis-sec" data-axis="mil">
+      <p>Clausewitz afirma que a guerra é a continuação da política por outros meios. Mas Naruto mostra o limite dessa fórmula. John Keegan sustenta que a guerra é também um fenômeno cultural, com ritos e identidades próprias. A guerra shinobi não se explica apenas por território: ela é uma forma de vida.</p>
+      <blockquote class="bq">A guerra shinobi não se explica apenas por território: ela é uma forma de vida, em que a criança aprende a matar como parte de sua identidade.</blockquote>
+      <p><strong>Sunzi</strong> oferece a ferramenta estratégica mais útil. Sua máxima de vencer sem lutar descreve bem a inteligência dos Nara. Naruto segue a mesma linha ao buscar interromper o ciclo de guerra.</p>
+      <p><strong>Itachi</strong> é o personagem em que o sacrifício se torna mais difícil de justificar. Massacrou o próprio clã para evitar uma guerra civil. Lido com Mozi e Mêncio, sua tragédia revela uma paz que exige o extermínio de uma família — o que já não é paz. <strong>Kakashi</strong> condensa uma ética de lealdade que não se confunde com obediência.</p>
+      <blockquote class="bq">Quem quebra regras é lixo, mas quem abandona os companheiros é pior.</blockquote>
+      <p>Os Bijuu levam essa dimensão ao limite. São armas vivas, selados em jinchūriki usados como instrumentos antes de serem reconhecidos como pessoas. O corpo do ninja é também um recurso político.</p>
+    </section>
+
+    <div class="axis-divider" data-axis="uto" id="eixo-uto"><span class="giant" aria-hidden="true" lang="ja">平和</span><span class="ax-name">Utópico-Distópico</span><span class="ax-desc">paz, liberdade e controle</span></div>
+
+    <section class="essay-axis-sec" data-axis="uto">
+      <p>O Plano Olho da Lua é o ponto em que a obra mais se aproxima de uma utopia negativa. Madara e Obito propõem encerrar o sofrimento colocando a humanidade numa ilusão coletiva. A proposta tem a estrutura de um sonho de paz, mas funciona como privação: a liberdade desaparece antes que a dor.</p>
+      <p>Huxley descreve uma sociedade em que a estabilidade é comprada com a individualidade. O Tsukuyomi Infinito repete esse pacto: a felicidade substitui a realidade. Orwell acrescenta o controle sobre a percepção. Madara leva essa lógica ao limite: não administra o mundo, substitui-o por um sonho.</p>
+      <blockquote class="bq">Madara não elimina o sofrimento; ele elimina a possibilidade de escolha. Se ninguém pode decidir, errar, resistir ou mudar, a vida humana perde o que a torna humana.</blockquote>
+      <p><strong>Platão</strong> ajuda a entender a autoridade que Madara, Obito e Pain reivindicam. Na República, o rei filósofo governa porque conhece a verdade. Os três se veem assim — autorizados a impor sua visão. <strong>Laozi</strong> oferece o contraponto: a imposição excessiva gera resistência. Albert Camus desconfia de projetos que justificam a morte em nome de harmonia final. Naruto quer que o mundo aprenda a suportar a dor sem repeti-la.</p>
+    </section>
+
+    <section class="essay-synthesis">
+      <h2>Conexão entre os eixos</h2>
+      <p>Os três eixos formam uma cadeia lógica: a segurança exige poder concentrado, o poder exige guerra ou sua ameaça, e a guerra contínua termina por pedir uma paz absoluta. Danzō usa o medo para preservar a vila; Madara usa a promessa de fim do sofrimento para eliminar o próprio mundo. O primeiro governa o real, o segundo tenta substituí-lo.</p>
+      <blockquote class="bq">A lógica de segurança, levada até o fim, produz uma paz sem sujeitos.</blockquote>
+      <p>Kant oferece o horizonte que a Aliança Shinobi tenta, sem completar. A paz duradoura depende de cooperação e de um direito que supere a lógica do medo. Mozi acrescenta a dimensão ética: seu amor universal aproxima Naruto do pensamento chinês — a recusa de tratar alguém como inimigo permanente.</p>
+      <p>Há uma ironia que une os três eixos. Quanto mais a vila se protege pela disciplina, menos seus membros têm autonomia para escolher a paz. O Tsukuyomi Infinito não é uma ruína externa do sistema shinobi — é seu limite interno.</p>
+    </section>
+
+    <section class="essay-conclusion">
+      <h2>Conclusão</h2>
+      <p>Naruto critica três formas de confundir paz com algo que não é paz. No eixo político, Danzō confunde segurança com controle. No militar, o sacrifício de Itachi mostra que uma ordem pode exigir a destruição de uma família sem deixar de se chamar paz. No utópico, Madara confunde paz com anestesia. Todos buscam resolver o sofrimento e acabam negando a liberdade.</p>
+      <blockquote class="bq">A paz só vale algo se a dor puder ser sentida e enfrentada por quem a sofre.</blockquote>
+      <p>A tese é esta: a paz verdadeira, em Naruto, não é a ausência de dor, mas a capacidade de conviver com a dor sem transformá-la em dominação. A obra oferece uma alternativa ao realismo sem limites de Danzō e à utopia autoritária de Madara: uma paz que reconhece a dor, aceita a imperfeição humana e rejeita qualquer sistema que transforme sofrimento em justificativa para dominar.</p>
+    </section>
+
+    <section class="essay-refs">
+      <h2>Referências</h2>
+      <p class="note">As datas são da primeira publicação. As citações são paráfrases, não transcrições.</p>
+      <ul>
+        <li><strong>Sunzi.</strong> A Arte da Guerra. Antiguidade chinesa.</li>
+        <li><strong>Mozi.</strong> Textos sobre o "amor universal". Século <span lang="la">V</span> a.C.</li>
+        <li><strong>Confúcio.</strong> Analectos.</li>
+        <li><strong>Mêncio.</strong> Mengzi. Século <span lang="la">IV</span> a.C.</li>
+        <li><strong>Xunzi.</strong> Xunzi. Século <span lang="la">III</span> a.C.</li>
+        <li><strong>Han Fei.</strong> Han Feizi. Século <span lang="la">III</span> a.C.</li>
+        <li><strong>Laozi.</strong> Tao Te Ching.</li>
+        <li><strong>Platão.</strong> A República. Cerca de 380 a.C.</li>
+        <li><strong>Tucídides.</strong> História da Guerra do Peloponeso.</li>
+        <li><strong>Maquiavel.</strong> O Príncipe. 1532.</li>
+        <li><strong>Hobbes.</strong> Leviatã. 1651.</li>
+        <li><strong>Kant.</strong> À Paz Perpétua. 1795.</li>
+        <li><strong>Clausewitz.</strong> Da Guerra. 1832.</li>
+        <li><strong>Weber.</strong> Economia e Sociedade. 1922.</li>
+        <li><strong>Huxley.</strong> Admirável Mundo Novo. 1932.</li>
+        <li><strong>Camus.</strong> O Mito de Sísifo. 1942; O Homem Revoltado. 1951.</li>
+        <li><strong>Orwell.</strong> 1984. 1949.</li>
+        <li><strong>Arendt.</strong> Origens do Totalitarismo. 1951.</li>
+        <li><strong>Foucault.</strong> Vigiar e Punir. 1975.</li>
+        <li><strong>Keegan.</strong> Uma História da Guerra. 1993.</li>
+      </ul>
+      <p class="warn">Material de apoio: dois textos sobre Naruto e Masashi Kishimoto. Declarações do autor devem ser conferidas em entrevistas originais antes de uso acadêmico.</p>
+    </section>
+
+  </div>
+</article>
+
+</main>
+
+<footer role="contentinfo">
+  <span class="flogo">KONOHA</span>
+  <ul>
+    <li><a href="#hero">Vila da Folha</a></li>
+    <li><a href="#hokages">Hokages</a></li>
+    <li><a href="#ensaio">Ensaio Filosófico</a></li>
+  </ul>
+  <small>Projeto acadêmico · Não afiliado à Shueisha ou Masashi Kishimoto</small>
+</footer>
+
+<script src="Assets/JavaScript/core.js"></script>
+<script src="Assets/JavaScript/index.js"></script>
+</body>
+</html>
