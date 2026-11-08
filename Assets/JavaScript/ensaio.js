@@ -3,7 +3,7 @@
 (function() {
   document.documentElement.classList.add('js');
 
-  Konoha.monumentParallax('.monumento-cena');
+  Konoha.monumentParallax('.monumento');
 
   Konoha.monolithTilt('.monolito', {
     entranceClass: 'entrada',
@@ -24,37 +24,37 @@
     ]
   });
 
-  Konoha.progressBar('.barra-progresso', {
+  Konoha.progressBar('.progress-bar', {
     axes: [
       { id: 'eixo-politico', glow: 'rgba(90,126,166,0.06)', color: '#5A7EA6', activeClass: 'visivel' },
       { id: 'eixo-militar', glow: 'rgba(166,61,61,0.06)', color: '#A63D3D', activeClass: 'visivel' },
       { id: 'eixo-utopico', glow: 'rgba(123,93,173,0.06)', color: '#7B5DAD', activeClass: 'visivel' }
     ],
-    ambientSelector: '.ambiente-eixo'
+    ambientSelector: '.ambient-glow'
   });
 
-  Konoha.classReveal('.divisor-eixo, .citacao-destaque', 'visivel', {
+  Konoha.classReveal('.divisor-eixo, .citacao', 'visivel', {
     threshold: 0.12,
     rootMargin: '0px 0px -40px 0px',
     fallback: false
   });
 
   if (!Konoha.reduced) {
-    document.querySelectorAll('.divisor-eixo, .citacao-destaque').forEach(el => el.classList.add('revelar'));
+    document.querySelectorAll('.divisor-eixo, .citacao').forEach(el => el.classList.add('revelar'));
   }
 
-  Konoha.classReveal('.coluna-leitura p, .coluna-leitura h2, .secao-referencias li', 'lido');
+  Konoha.classReveal('.coluna-leitura p, .coluna-leitura h2, .secao-refs li', 'lido');
 
   if ('IntersectionObserver' in window) {
-    const links = document.querySelectorAll('.navegacao-eixos a');
-    const nav = document.querySelector('.navegacao-fixa');
+    const links = document.querySelectorAll('.nav-chapters a');
+    const nav = document.querySelector('.chapter-nav');
 
     if (links.length) {
       const axisObs = new IntersectionObserver(entries => {
         for (const entry of entries) {
           if (entry.isIntersecting) {
             const id = entry.target.id;
-            links.forEach(l => l.classList.toggle('ativo', l.getAttribute('href') === '#' + id));
+            links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + id));
             if (nav) {
               const cor = id === 'eixo-politico' ? 'rgba(90,126,166,0.4)' :
                           id === 'eixo-militar' ? 'rgba(166,61,61,0.4)' :
