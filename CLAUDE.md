@@ -50,6 +50,7 @@ Assets/
     ensaio.js      — init do ensaio
     historia.js    — init da página de Hokages
     triadic-pressure.js — arte generativa p5.js
+    api-naruto.js  — enriquecimento via Dattebayo API (jutsus, família)
   images/          — assets visuais
 index.html         — Vila da Folha
 historia-konoha.html — Hokages
